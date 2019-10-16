@@ -4,23 +4,32 @@ import UIKit
 
 // Write a function named applyKTimes that takes an integer K and a closure and calls the closure K times. The closure will not take any parameters and will not have a return value.
 
+func applyKTimes(K: Int, closure: ()) -> () {
+    applyKTimes(K: K)
+    return Void
+    }
 
-// Your function here
+
+//func applyKTimes(K: Int) -> Int {
+//    applyKTimes(K: K)
+//    return 0
+//}
+
 
 // Uncomment out the following lines to check your solution
 
-//var myVal = 0
-//applyKTimes(5) {
-//    myVal += 1
-//}
-//assert(myVal == 5, "Expected myVal to be five, but was \(myVal)")
+var myVal = 0
+applyKTimes(5) {
+    myVal += 1
+}
+assert(myVal == 5, "Expected myVal to be five, but was \(myVal)")
 
 
 // Question Two
 
 // Write a function called multiples(of:in) that takes in an array of Ints and returns all of the Ints that are a multiple of a given number n.  Use filter in your function.
 
-// Your function here
+func multiples(of:in)
 
 // Uncomment out the following lines to check your solution
 
